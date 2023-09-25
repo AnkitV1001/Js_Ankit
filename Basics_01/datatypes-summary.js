@@ -48,3 +48,26 @@ console.log(typeof myObj); //object
 console.log(typeof heros); //object
 console.log(typeof myFunction); //function object
 
+
+// Types of Memory
+
+// Stack(Primitive) , Heap(Non-Primitive)
+
+let myName="Ankit"
+let anotherName=myName
+anotherName="Ishika"
+
+console.log(anotherName);// Ishika
+console.log(myName);// Ankit
+
+let userOne={
+    email:"akv280501@gmail.com",
+    upi:"user@1234567"
+}
+
+let userTwo=userOne
+
+userTwo.email="abcd@mail.com"
+
+console.log(userOne.email); //abcd@mail.com
+console.log(userTwo.email); //abcd@mail.com
